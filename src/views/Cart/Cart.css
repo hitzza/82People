@@ -1,0 +1,166 @@
+/* 장바구니 스타일 */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+button {
+	border: none;
+	background: none;
+	font-size: inherit;
+	padding: 0;
+	margin: 0;
+	cursor: pointer;
+}
+#checked-delete {
+	right: 0;
+}
+#all-checked + label {
+	cursor: pointer;
+	padding: 7px;
+}
+#cart-wrap {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.cart-step {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	margin-bottom: 50px;
+}
+.cart-step > li {
+	display: flex;
+	align-items: center;
+	opacity: 0.3;
+	font-size: 30px;
+}
+.cart-step > li.active {
+	opacity: 1;
+}
+.cart-step > li > span {
+	background-color: black;
+	color: #fff;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 999px;
+	margin-right: 10px;
+	font-size: 20px;
+}
+.cart-control-btn {
+	border-bottom: 1px solid #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-bottom: 10px;
+}
+.cart-items .empty-items {
+	display: block;
+	margin: 20px 0;
+}
+.cart-items img {
+	width: 100px;
+	height: 80px;
+	background-color: #fff;
+}
+.cart-items li,
+.cart-items article {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cart-items li {
+	gap: 20px;
+	margin-top: 20px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+}
+.cart-items article {
+	flex: 1;
+}
+.cart-items article > * {
+	flex: 1;
+}
+.cart-items article > div:last-child {
+	text-align: right;
+}
+.cart-items .thumbnail {
+	flex: 2;
+}
+.cart-items .thumbnail,
+.cart-items .thumbnail label {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+}
+.cart-price {
+	background-color: #fff;
+	padding: 40px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	border: 1px solid #000;
+}
+.cart-price > div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+.cart-price .total {
+	border-top: 1px solid #000;
+	padding-top: 20px;
+	font-weight: 900;
+	font-size: 26px;
+}
+.cart-price .total strong {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.order-btn {
+	font-size: 26px;
+	background: #000;
+	width: 100%;
+	color: #fff;
+	font-weight: 900;
+	padding: 20px 0;
+}
+.order-btn:disabled {
+	opacity: 0.5;
+}
+.amount-info {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.amount-btns {
+	display: flex;
+	align-items: center;
+	background-color: #fff;
+}
+.amount-btns input {
+	width: 50px;
+	border: none;
+	text-align: center;
+	padding: 0;
+	outline: none;
+}
+.amount-btns button {
+	font-size: 20px;
+	width: 30px;
+	height: 30px;
+}
+.delete-btn {
+	background-color: #000;
+	color: #fff;
+	padding: 7px 10px;
+}

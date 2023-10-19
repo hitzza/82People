@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/Common/common.css" />
+		<!-- 작업할 css 연결 -->
+		<link rel="stylesheet" href="./Order.css" />
+		<script type="module" src="./Order.js" defer></script>
+		<!-- 우편번호 서비스 -->
+		<script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+		<!-- 페이지에 맞는 타이틀 입력 -->
+		<title>주문하기</title>
+	</head>
+	<body>
+		<div id="global-wrap">
+			<header></header>
+			<main>
+				<div class="main-container">
+					<div id="order-wrap">
+						<ol class="cart-step">
+							<li>
+								<span>1</span>
+								장바구니
+							</li>
+							<li class="active">
+								<span>2</span>
+								<h2>주문하기</h2>
+							</li>
+							<li>
+								<span>3</span>
+								결제완료
+							</li>
+						</ol>
+						<!-- 주문할 장바구니 목록 -->
+						<div class="cart-title-wrap">
+							<h3>주문 상품</h3>
+							<a href="/cart" class="btn">수정</a>
+						</div>
+						<ul class="cart-items">
+							<!-- 상품리스트 -->
+						</ul>
+						<form id="cart-form">
+							<!-- 주문 정보 -->
+							<article class="order-info">
+								<h3>주문 정보</h3>
+								<fieldset>
+									<section>
+										<label class="require" for="recipient">수령인</label>
+										<input type="text" id="recipient" name="orderForm" />
+									</section>
+									<section>
+										<label class="require" for="phone">연락처</label>
+										<input
+											type="tel"
+											id="phone"
+											name="orderForm"
+											maxlength="13"
+										/>
+									</section>
+									<section class="address-input">
+										<label class="require">배송지</label>
+										<div>
+											<section class="api-btn">
+												<input
+													type="text"
+													readonly
+													id="address"
+													name="orderForm"
+													placeholder="주소검색"
+												/>
+											</section>
+											<input
+												type="text"
+												id="detail-address"
+												name="orderForm"
+												placeholder="상세주소"
+											/>
+										</div>
+									</section>
+									<section>
+										<label for="shippingRequest">배송 요청사항</label>
+										<input type="text" id="shippingRequest" name="orderForm" />
+									</section>
+									<!-- 비회원일경우 해당 요소 노출 -->
+									<div id="guest-mode"></div>
+								</fieldset>
+							</article>
+							<!-- 결제 금액 -->
+							<article>
+								<h3>결제금액</h3>
+								<div class="cart-price">
+									<div>
+										<span>상품금액</span>
+										<span id="products-price"></span>
+									</div>
+									<div>
+										<span>배송비</span>
+										<span id="shipping-price"></span>
+									</div>
+									<div class="total">
+										<strong>
+											<span>최종결제금액</span>
+											<span id="order-price"></span>
+										</strong>
+									</div>
+								</div>
+								<button type="submit" class="order-btn">결제하기</button>
+							</article>
+						</form>
+					</div>
+				</div>
+			</main>
+			<footer></footer>
+		</div>
+	</body>
+</html>

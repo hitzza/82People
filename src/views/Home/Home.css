@@ -1,0 +1,37 @@
+ul.products {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+ul.products > li {
+	width: 25%;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+}
+
+a {
+	font-size: inherit;
+	color: inherit;
+}
+
+.product-title,
+.product-price {
+	font-size: 18px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.product-price {
+	font-weight: 600;
+}
+.product-img {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	transform: scale(0.9);
+}

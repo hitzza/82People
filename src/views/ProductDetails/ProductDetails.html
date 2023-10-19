@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/Common/common.css" />
+		<!-- 작업할 css 연결 -->
+		<link rel="stylesheet" href="./ProductDetails.css" />
+		<script type="module" src="./ProductDetails.js" defer></script>
+		<!-- 페이지에 맞는 타이틀 입력 -->
+		<title>물품 상세</title>
+	</head>
+	<body>
+		<div id="global-wrap">
+			<header></header>
+			<main role="main" id="product-details-main">
+				<div class="main-container" id="product-details-container">
+					<!-- 클래스명 main-container까지 공통, id값은 페이지에 맞게 이름설정해서 사용 -->
+					<!-- 해당 위치에 페이지 마크업 -->
+					<div class="product-icon-image">
+						<img class="item-img" src="/" width="400" height="400" />
+					</div>
+					<div class="field">
+						<span class="maker"></span>
+						<span class="product-title"></span>
+						<span class="product-price"></span>
+						<span class="product-detail"></span>
+						<strong>
+							<span class="product-count">수량 :</span>
+							<input type="number" id="amount" value="1" min="1" />
+						</strong>
+						<strong>
+							<span class="product-total-price">총 상품금액 :</span>
+							<span class="product-total-cash"></span>
+						</strong>
+						<div class="product-put-shoppingcart">
+							<button id="add-to-cart">
+								<span>장바구니 담기</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer></footer>
+		</div>
+	</body>
+</html>
