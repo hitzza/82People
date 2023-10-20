@@ -121,8 +121,8 @@ PW : dls1212@@
 
 - `main` : 배포하기 위한 브랜치
 - `dev` : 기능 구현, 버그 수정과 같은 기능 단위별 브랜치
-- 'BE-dev' : 백엔드 개발을 위한 브랜치
-- 'FE-dev' : 프론트엔드 개발을 위한 브랜치
+- `BE-dev` : 백엔드 개발을 위한 브랜치
+- `FE-dev` : 프론트엔드 개발을 위한 브랜치
 - `feat` : 개발을 위한 브랜치
   - 각 브랜치의 이름은 `feat/세부기능`으로 이름 지어 어떠한 기능의 브랜치인지를 알 수 있도록 했습니다.
     
@@ -135,3 +135,5 @@ https://www.figma.com/file/Qgj2Gkawk3Le2L5UbroH03/82people-%EC%9B%B9%EB%94%94%EC
 https://drive.google.com/file/d/1xMlq8HHSsPQvuoCMdZQ5RlUgdbIJAvo6/view?usp=share_link
 
 ## 페이지 별 화면
+
+## What did I do?
