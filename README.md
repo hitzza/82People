@@ -1,11 +1,9 @@
 # 82People
 
-
-  
 ## 배포 URL(23.10.11일자 서버 중지)
 
 [82People](http://kdt-sw-5-team08.elicecoding.com/)
-QR이미지
+<img width="200" alt="qr" src="https://github.com/hitzza/82People/assets/103095794/82ac2ae1-58b7-4392-b6e5-d733d0f78d5b">
 
 ## 테스트 계정
 
@@ -20,7 +18,7 @@ PW : dls1212@@
 
 ## 페르소나
 
-이미지
+<img width="300" alt="페르소나" src="https://github.com/hitzza/82People/assets/103095794/fe8eb56e-57e1-45fd-bbca-2dcdb3e51693">
 
 - 파티와 추억을 사랑하는 20대 초반 여성
 - 1년 365일 기념일만 생각!
@@ -35,6 +33,7 @@ PW : dls1212@@
 - 로그인 시 기본 배송지가 자동으로 설정되며 마이페이지에서 변경 가능하다.
 - 관리자로 로그인하면 고객이 주문한 리스트를 볼 수 있다.
 - 관리자로 로그인하면 고객이 주문한 상품의 배송상태를 상태별로 볼 수 있으며, 배송상태 변경이 가능하다.
+
 ## 2. 기술 및 개발 환경
 
 ### [ 프로젝트 기간 ]
@@ -60,15 +59,12 @@ PW : dls1212@@
   <img src="https://img.shields.io/badge/mongodb-47A248?style=for-the-badge&logo=mongodb&logoColor=white">
   <img src="https://img.shields.io/badge/nodedotjs-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
   <br/>
-  
 - 협업 툴
 
   <img src="https://img.shields.io/badge/gitlab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white">
   <img src="https://img.shields.io/badge/discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
   <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
   <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
-
-
 
 ### [ 컨벤션 ]
 
@@ -125,7 +121,7 @@ PW : dls1212@@
 - `FE-dev` : 프론트엔드 개발을 위한 브랜치
 - `feat` : 개발을 위한 브랜치
   - 각 브랜치의 이름은 `feat/세부기능`으로 이름 지어 어떠한 기능의 브랜치인지를 알 수 있도록 했습니다.
-    
+
 ## Figma 문서
 
 https://www.figma.com/file/Qgj2Gkawk3Le2L5UbroH03/82people-%EC%9B%B9%EB%94%94%EC%9E%90%EC%9D%B8?type=design&node-id=0-1&mode=design&t=vZyo3RFhiuSgD7e3-0
