@@ -3,6 +3,7 @@
 ## 배포 URL(23.10.11일자 서버 중지)
 
 [82People](http://kdt-sw-5-team08.elicecoding.com/)
+
 <img width="200" alt="qr" src="https://github.com/hitzza/82People/assets/103095794/82ac2ae1-58b7-4392-b6e5-d733d0f78d5b">
 
 ## 테스트 계정
@@ -131,5 +132,68 @@ https://www.figma.com/file/Qgj2Gkawk3Le2L5UbroH03/82people-%EC%9B%B9%EB%94%94%EC
 https://drive.google.com/file/d/1xMlq8HHSsPQvuoCMdZQ5RlUgdbIJAvo6/view?usp=share_link
 
 ## 페이지 별 화면
+
+<details>
+<summary> 홈 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/82People/assets/103095794/be6f2c50-692e-4241-affc-c246756d79d7">
+</aside>
+</div>
+</details>
+
+<details>
+<summary> 로그인 / 회원가입 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/82People/assets/103095794/701cf94b-bc94-4894-9d1c-117bbd1208ad">
+</aside>
+</div>
+</details>
+
+<details>
+<summary> 장바구니 담기 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/82People/assets/103095794/399bd029-0783-44ed-a9ee-56753d810ac7">
+</aside>
+</div>
+</details>
+
+<details>
+<summary> 장바구니 주소지 설정 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/82People/assets/103095794/7cb38e58-c8bc-4f15-a59c-41cda24b858a">
+</aside>
+</div>
+</details>
+
+<details>
+<summary> 회원 주문내역 확인 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/82People/assets/103095794/de441a83-1b70-4f1d-aa60-e0b37099d050">
+</aside>
+</div>
+</details>
+
+<details>
+<summary> 비회원 주문 & 주문내역 확인 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/82People/assets/103095794/a11697ea-8f4b-45d6-aa73-b66d72e16108">
+</aside>
+</div>
+</details>
+
+<details>
+<summary> 관리자 배송 상태 관리 </summary>
+<div markdown="1">
+ <aside>
+ <img width="200" src="https://github.com/hitzza/82People/assets/103095794/8097567e-287f-4f46-8ec1-92b1733ed51c">
+</aside>
+</div>
+</details>
 
 ## What did I do?
