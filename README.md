@@ -4,7 +4,7 @@
 
 [82People](http://kdt-sw-5-team08.elicecoding.com/)
 
-<img width="400" alt="qr" src="https://github.com/hitzza/82People/assets/103095794/82ac2ae1-58b7-4392-b6e5-d733d0f78d5b">
+<img width="200" alt="qr" src="https://github.com/hitzza/82People/assets/103095794/82ac2ae1-58b7-4392-b6e5-d733d0f78d5b">
 
 ## 테스트 계정
 
@@ -197,3 +197,9 @@ https://drive.google.com/file/d/1xMlq8HHSsPQvuoCMdZQ5RlUgdbIJAvo6/view?usp=share
 </details>
 
 ## What did I do?
+
+- 유저 정보 DB 모델, 스키마 생성
+- 백엔드 라우터 설정
+- 회원가입, 로그인, 유저, 관리자 API 관리
+- 토큰 유효성 검증 미들웨어 작성
+- 유저 정보 핸들링 컨트롤러 작성
